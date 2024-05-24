@@ -1,0 +1,15 @@
+    - name: "HeckerAI"
+      apiKey: "hkr-pp7xdukjyz8a1okf9xasqfezzdrql1"
+      baseURL: "https://heckerai.uk.to/v1"
+      models:
+        default: [
+          "gpt-3.5-turbo", "gpt-4-1106-preview"
+          ]
+        fetch: true
+      titleConvo: false
+      titleModel: "gpt-3.5-turbo"
+      summarize: false
+      summaryModel: "gpt-3.5-turbo"
+      forcePrompt: false
+      modelDisplayLabel: "HeckerAI"
+      dropParams: ["stop","user"]
